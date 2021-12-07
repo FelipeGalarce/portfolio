@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Galarce</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/5c57d3ff9a.js" crossorigin="anonymous"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-image: url("https://picsum.photos/id/324/1920");
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #405a4f;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: rgb(25, 46, 34);
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(58, 90, 73);
+        }
+    </style>
+</head>
+
+<body class="bg-fixed">
+    <header class="hidden md:block sticky top-0">
+        <nav class="bg-green-900 p-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-256.png" width="50"
+                    alt="Logo" class="mr-2">
+                <a href="#inicio"
+                    class="inline-block p-2 font-bold text-xl text-green-300 hover:text-green-100 mr-2">Inicio</a>
+                <a href="#skills"
+                    class="inline-block p-2 font-bold text-xl text-green-300 hover:text-green-100 mr-2">Skills</a>
+                <a href="#projects"
+                    class="inline-block p-2 font-bold text-xl text-green-300 hover:text-green-100">Projects</a>
+                <a href="#contacto"
+                    class="inline-block p-2 font-bold text-xl text-green-300 hover:text-green-100">Contacto</a>
+            </div>
+
+        </nav>
+    </header>
+    <div class="w-full">
+
+        <div class="w-full pt-5  flex flex-col  items-center">
+            <div
+                class="p-4  rounded-lg md:shadow-xl md:w-3/5 w-full   bg-gray-800 bg-opacity-90 flex flex-col  items-center">
+                <!--Presentacion-->
+                <div id="inicio" class="text-center flex flex-col items-center">
+                    <img src="foto-portfolio.jpeg" class="w-40 my-8  shadow-xl border-2 rounded-lg" alt="" srcset="">
+                    <p class="text-gray-200 text-6xl font-mono">Hola!</p>
+                    <p class="text-gray-100 py-8 text-4xl font-mono border-b-2 border-fuchsia-600 ">Soy Felipe
+                        Galarce Pardo</p>
+
+                    <p class="p-4 text-gray-300 text-xl md:text-2xl">Soy un Programador JavaScript Fullstack, proactivo y en busqueda constante de nuevos conocimientos que me ayuden a desarrollarme profesionalmente. Me gusta hacer Trekking, leer (mi escritor favorito es Terry Pratchett) y tengo dos perros de mascota.</p>
+                    <div class="flex py-12 flex-wrap w-full justify-around">
+                        <img class="w-20"
+                            src="https://cdn3.iconfinder.com/data/icons/nature-37/120/tempaltaaaeaqas-256.png" alt="">
+                        <img class="w-20"
+                            src="https://cdn0.iconfinder.com/data/icons/interior-and-decor-vol-1-1/512/15-256.png"
+                            alt="">
+                        <img class="w-20"
+                            src="https://cdn2.iconfinder.com/data/icons/japan-flat-2/340/dog_pet_animal_japanese_shiba_inu_japan-256.png"
+                            alt="">
+                    </div>
+
+
+                </div>
+                <!--conocimientos-->
+                <div id="skills" class="w-full flex flex-col items-center">
+                    <h2 class="text-center text-4xl md:text-6xl p-8 w-3/5 border-b-2 text-gray-300">Skills</h2>
+                    <p class="text-center p-4  md:p-8 text-gray-200 text-xl md:text-2xl">Actualmente manejo JavaScript Vanilla, y varios de sus frameworks, como Jquery, Bootstrap, TailWind, NodeJS, Express y a un nivel mas básico ReactJS. Tambien tengo conocimientos en CSS3 y HTML5.</p>
+                    <div class="flex p-8 flex-wrap my-5 w-full justify-around">
+                        <div class="text-gray-300 items-center flex flex-col text-6xl"><i
+                                class="fab fa-html5 text-yellow-500 hover:text-yellow-400"></i>
+                            <p class="text-2xl">HTML5</p>
+                        </div>
+                        <div class="text-gray-300 items-center flex flex-col text-6xl"><i
+                                class="fab fa-css3-alt text-blue-600 hover:text-blue-500"></i>
+                            <p class="text-2xl">CSS3</p>
+                        </div>
+                        <div class="text-gray-300 items-center flex flex-col text-6xl"><i
+                                class="fab fa-js-square text-yellow-300 hover:text-yellow-200"></i>
+                            <p class="text-2xl">JavaScript</p>
+                        </div>
+                        <div class="text-gray-300 items-center flex flex-col text-6xl"><i
+                                class="fab fa-node text-green-400 hover:text-green-300"></i>
+                            <p class="text-2xl">NodeJS</p>
+                        </div>
+                        <div class="text-gray-300 items-center flex flex-col text-6xl"><i
+                                class="fab fa-react text-indigo-300 hover:text-indigo-200"></i>
+                            <p class="text-2xl">ReactJS</p>
+                        </div>
+                        <div class="text-gray-300 items-center flex flex-col text-6xl"><i
+                                class="fab fa-bootstrap text-purple-800 hover:text-purple-700"></i>
+                            <p class="text-2xl">Bootstrap</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!--portfolio-->
+                <div id="projects" class="w-full flex flex-col items-center">
+                    <h2 class="text-center text-4xl md:text-6xl py-8 w-3/5 border-b-2 text-gray-300">Projects</h2>
+                    <p class="text-center p-4  md:p-8 text-gray-200 text-xl md:text-2xl">A continuacion voy a listar los distintos proyectos que estare actualizando constantemente a penas vaya terminandolos.</p>
+                    <div>
+                        <p class="text-gray-300 underline text-2xl">React:</p>
+                        <p class="text-gray-200 p-1">Un pequeño Juego realizado con React montado en
+                            Heroku,
+                            para ser jugado en PC</p>
+                        <iframe class="hidden xl:flex" src="https://felipe2-jewel-game.herokuapp.com/" width="760px"
+                            height="500px" frameborder="0"></iframe>
+
+                        <div class="xl:hidden flex flex-col items-center">
+
+                            <div href="https://felipe2-jewel-game.herokuapp.com/"
+                                class="boder-2 w-48 rounded-lg bg-gray-800 hover:bg-gray-700 hover:text-gray-300 flex justify-center text-gray-200">
+                                <a href="https://felipe2-jewel-game.herokuapp.com/"> Proyecto Juego React</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <!--Contacto-->
+                <div id="contacto" class="w-full flex flex-col items-center">
+                    <h2 class="text-center text-4xl md:text-6xl py-8 w-3/5 border-b-2 text-gray-300">Contacto</h2>
+                    <p class="text-center p-4  md:p-8 text-gray-200 text-xl md:text-2xl">Contactame!!!</p>
+                    <div>
+                        <div class="flex w-full justify-around">
+                            <div><a href="mailto: felipe.gp26@gmail.com"><i class="fas fa-envelope text-gray-400 text-4xl hover:text-gray-300 p-4"></i></a></div>
+                            <div><a target="_blank" href="https://www.linkedin.com/in/felipe-galarce-pardo/"> <i class="fab fa-linkedin text-gray-400 text-4xl hover:text-gray-300 p-4"></i></a></div>
+                            <div><a href="https://www.instagram.com/felipe.gpardo/" target="_blank"><i class="fab fa-instagram-square text-gray-400 text-4xl hover:text-gray-300 p-4"></a></i>
+                            </div>
+                            <div><a href="tel:+56930039835"><i class="fab fa-whatsapp-square text-gray-400 text-4xl hover:text-gray-300 p-4"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+</body>
+
+</html>
